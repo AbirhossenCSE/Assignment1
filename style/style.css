@@ -81,8 +81,10 @@ nav{
 
 .devlopment{
     width: 1100px;
-    height: 700px;
-    background-color: lightblue;
+    height: 800px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
     
     margin: 80px auto;
     padding: 60px;
@@ -121,6 +123,16 @@ nav{
     text-align: left;
     margin: 16px 0;
 }
-.dev-btn{
+.dev-lern-more{
+    box-sizing: border-box;
+    color: rgb(45, 40, 40);
+    border-radius: 3px;
+    background: rgb(231, 235, 243);
+    padding: 17px 24px 17px 24px;
+    margin-top: 25px 0px;
+    cursor: pointer;
+}
+
+.inspiration{
     
 }
