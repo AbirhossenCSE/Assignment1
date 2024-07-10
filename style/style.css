@@ -260,3 +260,41 @@ nav{
     text-decoration-line: underline;
     margin: 20px;
 }
+
+
+
+
+.support-bg{
+    background: url(/assets/handshake.jpg);
+    width: 100%;
+    
+}
+.support{
+    width: 1200px;
+    height: 350px;
+    margin: 45px auto;
+    padding: 64px 48px;
+
+}
+.support .support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.support .support-des{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
