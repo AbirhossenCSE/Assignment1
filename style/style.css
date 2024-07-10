@@ -274,6 +274,7 @@ nav{
     height: 350px;
     margin: 45px auto;
     padding: 64px 48px;
+    
 
 }
 .support .support-title{
@@ -297,4 +298,73 @@ nav{
     text-align: center;
     opacity: 0.7;
     margin-bottom: 25px;
+}
+
+.support .ques{
+    
+    margin: 65px auto;
+    display: flex;
+    align-items: center;
+    width: 800px;
+}
+
+/* .support-btn{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    
+} */
+main textarea{
+    height: 64px;
+    border-radius: 8px;
+    background-color: white;
+
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.sup-btn{
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    /* padding: 17px 20px 17px 20px; */
+    width: 20%;
+    height: 54px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    margin-left: 5px;
+    border: none;
+}
+
+.foot-content{
+    height: 100px;
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+.foot-content .foot-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.foot-content ul{
+    display: flex;
+    align-items: center;
+}
+.foot-content ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.foot-content ul li a{
+    text-decoration: none;
 }
